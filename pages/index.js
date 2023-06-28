@@ -1,4 +1,5 @@
 import { useContext, useEffect, useState } from "react";
+import Head from "next/head";
 import data from "../src/data.json";
 import Modal from "../components/Modal";
 import { ModalContext } from "../contexts/ModalContext";
@@ -55,6 +56,10 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <link rel="icon" type="image/svg+xml" href="/assets/dictionary.png" />
+        <title>Definr</title>
+      </Head>
       {value ? <Modal></Modal> : null}
       {/* Search */}
       <div className="mt-20 flex flex-col justify-center items-center">
