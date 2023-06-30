@@ -156,7 +156,7 @@ export default function Home() {
           {/* End of Meaning */}
         </div>
 
-        <div className="w-full bg-blue-800 h-20 flex flex-col justify-center items-center gap-y-4 text-white py-24">
+        <div className="w-full bg-blue-800 h-20 flex flex-col justify-center items-center gap-y-4 text-white py-24 sm:py-16">
           <a href="https://github.com/Fynmn/definr" target="_blank">
             <span className="flex flex-col sm:flex-row justify-center items-center gap-x-1 hover:text-blue-200 active:animate-ping text-xs sm:text-base">
               <div className="flex items-center gap-x-1">
