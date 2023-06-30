@@ -156,16 +156,20 @@ export default function Home() {
           {/* End of Meaning */}
         </div>
 
-        <div className="w-full bg-blue-800 h-20 flex flex-col justify-center items-center gap-y-4 text-white py-16">
+        <div className="w-full bg-blue-800 h-20 flex flex-col justify-center items-center gap-y-4 text-white py-24">
           <a href="https://github.com/Fynmn/definr" target="_blank">
-            <span className="flex items-center gap-x-1 justify-center hover:text-blue-200 active:animate-ping text-xs sm:text-base">
-              <p>Give the repository of this project a</p>
-              <span className="text-yellow-400">
-                <GiRoundStar />
-              </span>
-              <p>on</p>
-              <FaGithub />
-              <p>you amazing hooman 😎</p>
+            <span className="flex flex-col sm:flex-row justify-center items-center gap-x-1 hover:text-blue-200 active:animate-ping text-xs sm:text-base">
+              <div className="flex items-center gap-x-1">
+                <p>Give the repository of this project a</p>
+                <span className="text-yellow-400">
+                  <GiRoundStar />
+                </span>
+                <p>on</p>
+                <FaGithub />
+              </div>
+              <div>
+                <p>you amazing hooman 😎</p>
+              </div>
             </span>
           </a>
           <span class="flex flex-wrap justify-center px-16 items-center">
