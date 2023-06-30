@@ -80,7 +80,7 @@ export default function Home() {
               {/* Input Field */}
               <input
                 type="text"
-                placeholder="Enter word to search here"
+                placeholder="Enter a word to search"
                 className="font-voces input input-bordered input-primary w-full max-w-xs border-4 border-blue-800 p-2 placeholder-gray-400 placeholder-opacity-50"
                 onChange={(e) => setInput(e.target.value)}
               />
