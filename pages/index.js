@@ -75,7 +75,7 @@ export default function Home() {
           <div className="mt-20 flex flex-col justify-center items-center">
             <form
               onSubmit={handleSubmit}
-              className="flex flex-row justify-center items-center space-x-2"
+              className="flex flex-row justify-center items-center space-x-2 px-8"
             >
               {/* Input Field */}
               <input
@@ -95,7 +95,7 @@ export default function Home() {
           </div>
           {/* End of Search */}
 
-          <div className="py-8 mb-16">
+          <div className="py-8 mb-16 px-8">
             {meaning == null || input.length == 0 ? (
               <div></div>
             ) : (
